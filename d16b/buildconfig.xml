@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0">
+	<configuration>
+		<identifier>uncefact-d16b-cii-uncoupled</identifier>
+		<title>UN/CEFACT CrossIndustryInvoice D16B</title>
+		<file type="xml.xsd" path="data/standard/CrossIndustryInvoice_100pD16B.xsd" />
+	</configuration>
+
+	<include path="codelist" />
+	<include path="data/standard/CrossIndustryInvoice_QualifiedDataType_100pD16B.xsd"/>
+	<include path="data/standard/CrossIndustryInvoice_ReusableAggregateBusinessInformationEntity_100pD16B.xsd"/>
+	<include path="data/standard/CrossIndustryInvoice_UnqualifiedDataType_100pD16B.xsd"/>
+	<include path="identifierlist" />
+</buildConfigurations>
